@@ -17,5 +17,5 @@ func GetCPUVariant() string {
 	}
 	slog.Info("CPU does not have vector extensions")
 	// else LCD
-	return "avx"
+	return ""
 }
